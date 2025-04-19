@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ManifestMath">
+      <UniqueIdentifier>{e073370b-2f61-4c57-878d-75a1db8971a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ManifestUtility">
+      <UniqueIdentifier>{b82aa783-2f3a-43cb-b662-99a2acedcc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ManifestMath">
+      <UniqueIdentifier>{123bc1d0-9705-4209-aff1-63a59b3fcdbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\CachedVertex.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Clipping.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Core.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Integer3D.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Line.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Matrix3.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Matrix4.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Plane.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Point3.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Point4.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Transform.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Triangle.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Vector2.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Vector3.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMath\Vector4.cpp">
+      <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ManifestUtility\Typenames.h">
+      <Filter>Header Files\ManifestUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestUtility\Assert.h">
+      <Filter>Header Files\ManifestUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestUtility\Console_Color.h">
+      <Filter>Header Files\ManifestUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestUtility\DebugLogger.h">
+      <Filter>Header Files\ManifestUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestUtility\TypeAssist.h">
+      <Filter>Header Files\ManifestUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\CachedVertex.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Clipping.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Core.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestPersistence\DatabaseTypes.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Integer3D.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Line.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Matrix3.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Matrix4.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Plane.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Point3.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Point4.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Simplex.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Transform.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Triangle.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Typenames.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Vector2.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Vector3.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Vector4.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

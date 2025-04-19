@@ -7,7 +7,6 @@
 
 #include <ManifestMath/Plane.h>
 #include <ManifestMath/Clipping.h>
-#include <ManifestSimulation/EntityEngine/Entity.h>//walkable_tolerance
 #include <ManifestUtility/Assert.h>
 #include "NavigableStructures.h"
 

@@ -24,9 +24,7 @@
     </ClCompile>
     <ClCompile Include="ManifestMath\CachedVertex.cpp" />
     <ClCompile Include="ManifestMath\Clipping.cpp" />
-    <ClCompile Include="ManifestMath\Core.cpp" />
     <ClCompile Include="ManifestMath\Integer3D.cpp" />
-    <ClCompile Include="ManifestMath\Line.cpp" />
     <ClCompile Include="ManifestMath\Matrix3.cpp" />
     <ClCompile Include="ManifestMath\Matrix4.cpp" />
     <ClCompile Include="ManifestMath\Plane.cpp" />
@@ -45,20 +43,17 @@
     <ClInclude Include="ManifestMath\Clipping.h" />
     <ClInclude Include="ManifestMath\Core.h" />
     <ClInclude Include="ManifestMath\Integer3D.h" />
-    <ClInclude Include="ManifestMath\Line.h" />
     <ClInclude Include="ManifestMath\Matrix3.h" />
     <ClInclude Include="ManifestMath\Matrix4.h" />
     <ClInclude Include="ManifestMath\Plane.h" />
     <ClInclude Include="ManifestMath\Point3.h" />
     <ClInclude Include="ManifestMath\Point4.h" />
-    <ClInclude Include="ManifestMath\Simplex.h" />
     <ClInclude Include="ManifestMath\Transform.h" />
     <ClInclude Include="ManifestMath\Triangle.h" />
     <ClInclude Include="ManifestMath\Typenames.h" />
     <ClInclude Include="ManifestMath\Vector2.h" />
     <ClInclude Include="ManifestMath\Vector3.h" />
     <ClInclude Include="ManifestMath\Vector4.h" />
-    <ClInclude Include="ManifestPersistence\DatabaseTypes.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h" />
     <ClInclude Include="ManifestUtility\Assert.h" />

@@ -67,6 +67,7 @@ MFvec3 Manifest_Math::Slerp(const MFvec3& v, const MFvec3& a, const MFfloat& t)
 //yaw/heading-rotation about y axis
 MFvec3 Manifest_Math::AxisAngleToEuler(const MFvec3& axis, const MFfloat& theta)
 {
+
 	MFvec3 euler;//pitch-yaw-roll
 
 	const auto& s = sinf(theta);
@@ -75,7 +76,7 @@ MFvec3 Manifest_Math::AxisAngleToEuler(const MFvec3& axis, const MFfloat& theta)
 	//axis is assumed to be normalized, if not normalized, normalized before passing in
 	if ((axis.x * axis.y * t + axis.z * s) > 0.998f) { // north pole singularity detected
 		euler.y = 2 * atan2f(axis.x * sinf(theta / 2), cosf(theta / 2));
-		euler.x = Pi / 2;
+		euler.x =  Pi / 2;
 		euler.z = 0;
 
 		return euler;

@@ -1,8 +1,8 @@
 #pragma once
 
-#include <ManifestMath/Vector2.h> 
+#include <ManifestMath/Core.h> 
+using namespace Manifest_Math;
 
-#include "VoxelStructs.h"
  
 namespace Manifest_Terrain
 { 

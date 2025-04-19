@@ -1,6 +1,4 @@
-
-#pragma once
-#include "Line.h"
+#pragma once 
 #include "Transform.h"
 #include "Point4.h"
 

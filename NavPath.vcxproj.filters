@@ -33,13 +33,7 @@
     <ClCompile Include="ManifestMath\Clipping.cpp">
       <Filter>Source Files\ManifestMath</Filter>
     </ClCompile>
-    <ClCompile Include="ManifestMath\Core.cpp">
-      <Filter>Source Files\ManifestMath</Filter>
-    </ClCompile>
     <ClCompile Include="ManifestMath\Integer3D.cpp">
-      <Filter>Source Files\ManifestMath</Filter>
-    </ClCompile>
-    <ClCompile Include="ManifestMath\Line.cpp">
       <Filter>Source Files\ManifestMath</Filter>
     </ClCompile>
     <ClCompile Include="ManifestMath\Matrix3.cpp">
@@ -104,13 +98,7 @@
     <ClInclude Include="ManifestMath\Core.h">
       <Filter>Header Files\ManifestMath</Filter>
     </ClInclude>
-    <ClInclude Include="ManifestPersistence\DatabaseTypes.h">
-      <Filter>Header Files\ManifestMath</Filter>
-    </ClInclude>
     <ClInclude Include="ManifestMath\Integer3D.h">
-      <Filter>Header Files\ManifestMath</Filter>
-    </ClInclude>
-    <ClInclude Include="ManifestMath\Line.h">
       <Filter>Header Files\ManifestMath</Filter>
     </ClInclude>
     <ClInclude Include="ManifestMath\Matrix3.h">
@@ -132,9 +120,6 @@
       <Filter>Header Files\ManifestMath</Filter>
     </ClInclude>
     <ClInclude Include="ManifestMath\Point4.h">
-      <Filter>Header Files\ManifestMath</Filter>
-    </ClInclude>
-    <ClInclude Include="ManifestMath\Simplex.h">
       <Filter>Header Files\ManifestMath</Filter>
     </ClInclude>
     <ClInclude Include="ManifestMath\Transform.h">

@@ -37,6 +37,7 @@
     <ClCompile Include="ManifestMath\Vector4.cpp" />
     <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.cpp" />
     <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Pathing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ManifestMath\CachedVertex.h" />
@@ -56,6 +57,7 @@
     <ClInclude Include="ManifestMath\Vector4.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Pathing.h" />
     <ClInclude Include="ManifestUtility\Assert.h" />
     <ClInclude Include="ManifestUtility\Console_Color.h" />
     <ClInclude Include="ManifestUtility\DebugLogger.h" />

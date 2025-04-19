@@ -1,6 +1,7 @@
 #pragma once
 
-#include <ManifestSimulation/IntelligenceEngine/NavigationMesh.h>
+#include <ManifestSimulation/IntelligenceEngine/Pathing.h>
+
 
 using namespace Manifest_Simulation;
 using namespace Manifest_Math;
@@ -14,4 +15,8 @@ int main()
 	SimplifyMesh(navigationMesh);
 	VoxelSpaceToWorldSpace(voxelToWorld, navigationMesh);
 	DecomposeMesh(navigationMesh);
+	MFpoint3 currentLocation; MFpoint3 targetLocation;
+	NavigablePolygon const* const currentPolygon{ ClosestPolygonToPoint(navigationMesh, currentLocation) };
+	NavigablePolygon const* const targetPolygon{ ClosestPolygonToPoint(navigationMesh, targetLocation) };
+	const std::vector<MFpoint3> wayPoints{ GenerateWayPoints(navigationMesh,currentLocation,targetLocation) };
 }

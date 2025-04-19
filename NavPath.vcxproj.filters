@@ -22,6 +22,12 @@
     <Filter Include="Source Files\ManifestMath">
       <UniqueIdentifier>{123bc1d0-9705-4209-aff1-63a59b3fcdbc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ManifestSimulation">
+      <UniqueIdentifier>{88e7c60c-88b5-4909-86d5-0d8a717a308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ManifestSimulation">
+      <UniqueIdentifier>{b6ed53a3-8cec-4bcc-b205-b679583887a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -40,12 +46,6 @@
       <Filter>Source Files\ManifestMath</Filter>
     </ClCompile>
     <ClCompile Include="ManifestMath\Matrix4.cpp">
-      <Filter>Source Files\ManifestMath</Filter>
-    </ClCompile>
-    <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.cpp">
-      <Filter>Source Files\ManifestMath</Filter>
-    </ClCompile>
-    <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.cpp">
       <Filter>Source Files\ManifestMath</Filter>
     </ClCompile>
     <ClCompile Include="ManifestMath\Plane.cpp">
@@ -71,6 +71,15 @@
     </ClCompile>
     <ClCompile Include="ManifestMath\Vector4.cpp">
       <Filter>Source Files\ManifestMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Pathing.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -104,15 +113,6 @@
     <ClInclude Include="ManifestMath\Matrix3.h">
       <Filter>Header Files\ManifestMath</Filter>
     </ClInclude>
-    <ClInclude Include="ManifestMath\Matrix4.h">
-      <Filter>Header Files\ManifestMath</Filter>
-    </ClInclude>
-    <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.h">
-      <Filter>Header Files\ManifestMath</Filter>
-    </ClInclude>
-    <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h">
-      <Filter>Header Files\ManifestMath</Filter>
-    </ClInclude>
     <ClInclude Include="ManifestMath\Plane.h">
       <Filter>Header Files\ManifestMath</Filter>
     </ClInclude>
@@ -139,6 +139,18 @@
     </ClInclude>
     <ClInclude Include="ManifestMath\Vector4.h">
       <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Pathing.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMath\Matrix4.h">
+      <Filter>Header Files\ManifestMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -28,6 +28,18 @@
     <Filter Include="Source Files\ManifestSimulation">
       <UniqueIdentifier>{b6ed53a3-8cec-4bcc-b205-b679583887a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ManifestMemory">
+      <UniqueIdentifier>{d44ab488-a361-460d-a23a-0399d5d544d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ManifestMemory">
+      <UniqueIdentifier>{aee662b0-a23e-43d2-bc21-22559c1aa64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ManifestCore">
+      <UniqueIdentifier>{b2b1a394-866b-4cd2-9447-15b4fad0924b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ManifestCore">
+      <UniqueIdentifier>{489fc746-15b7-4265-8e6c-3b75b075f64f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -79,6 +91,45 @@
       <Filter>Source Files\ManifestSimulation</Filter>
     </ClCompile>
     <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Action.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\ActionPlanner.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Blackboard.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Desire.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\DronePathFinderSystem.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Goal.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Hivemind.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\HivemindDroneSystem.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\IntelligenceEngine.cpp">
+      <Filter>Source Files\ManifestSimulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestMemory\MemoryGuards\ExchangeLock.cpp">
+      <Filter>Source Files\ManifestMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestCore\Gametimer.cpp">
+      <Filter>Source Files\ManifestCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestCore\Timer.cpp">
+      <Filter>Source Files\ManifestCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ManifestSimulation\DataSystem.cpp">
       <Filter>Source Files\ManifestSimulation</Filter>
     </ClCompile>
   </ItemGroup>
@@ -150,6 +201,63 @@
       <Filter>Header Files\ManifestSimulation</Filter>
     </ClInclude>
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Action.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\ActionPlanner.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Blackboard.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\BlackBoardStateUpdater.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Desire.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\DronePathFinderSystem.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Goal.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Hivemind.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\HivemindDroneSystem.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\IntelligenceEngine.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\WorldState.h">
+      <Filter>Header Files\ManifestSimulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMemory\MemoryGuards\ExchangeLock.h">
+      <Filter>Header Files\ManifestMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMemory\MemoryGuards\RCU.h">
+      <Filter>Header Files\ManifestMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMemory\Containers\FlatMap.h">
+      <Filter>Header Files\ManifestMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestMemory\Containers\SparseMap.h">
+      <Filter>Header Files\ManifestMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestCore\EngineSupport.h">
+      <Filter>Header Files\ManifestCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestCore\Gametimer.h">
+      <Filter>Header Files\ManifestCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestCore\Timer.h">
+      <Filter>Header Files\ManifestCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ManifestSimulation\DataSystem.h">
       <Filter>Header Files\ManifestSimulation</Filter>
     </ClInclude>
   </ItemGroup>

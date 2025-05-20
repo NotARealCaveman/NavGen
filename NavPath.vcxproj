@@ -22,6 +22,8 @@
     <ClCompile Include="main.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="ManifestCore\Gametimer.cpp" />
+    <ClCompile Include="ManifestCore\Timer.cpp" />
     <ClCompile Include="ManifestMath\CachedVertex.cpp" />
     <ClCompile Include="ManifestMath\Clipping.cpp" />
     <ClCompile Include="ManifestMath\Integer3D.cpp" />
@@ -35,11 +37,25 @@
     <ClCompile Include="ManifestMath\Vector2.cpp" />
     <ClCompile Include="ManifestMath\Vector3.cpp" />
     <ClCompile Include="ManifestMath\Vector4.cpp" />
+    <ClCompile Include="ManifestMemory\MemoryGuards\ExchangeLock.cpp" />
+    <ClCompile Include="ManifestSimulation\DataSystem.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Action.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\ActionPlanner.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Blackboard.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Desire.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\DronePathFinderSystem.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Goal.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\Hivemind.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\HivemindDroneSystem.cpp" />
+    <ClCompile Include="ManifestSimulation\IntelligenceEngine\IntelligenceEngine.cpp" />
     <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.cpp" />
     <ClCompile Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.cpp" />
     <ClCompile Include="ManifestSimulation\IntelligenceEngine\Pathing.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ManifestCore\EngineSupport.h" />
+    <ClInclude Include="ManifestCore\Gametimer.h" />
+    <ClInclude Include="ManifestCore\Timer.h" />
     <ClInclude Include="ManifestMath\CachedVertex.h" />
     <ClInclude Include="ManifestMath\Clipping.h" />
     <ClInclude Include="ManifestMath\Core.h" />
@@ -55,9 +71,25 @@
     <ClInclude Include="ManifestMath\Vector2.h" />
     <ClInclude Include="ManifestMath\Vector3.h" />
     <ClInclude Include="ManifestMath\Vector4.h" />
+    <ClInclude Include="ManifestMemory\Containers\FlatMap.h" />
+    <ClInclude Include="ManifestMemory\Containers\SparseMap.h" />
+    <ClInclude Include="ManifestMemory\MemoryGuards\ExchangeLock.h" />
+    <ClInclude Include="ManifestMemory\MemoryGuards\RCU.h" />
+    <ClInclude Include="ManifestSimulation\DataSystem.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Action.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\ActionPlanner.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Blackboard.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\BlackBoardStateUpdater.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Desire.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\DronePathFinderSystem.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Goal.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\Hivemind.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\HivemindDroneSystem.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\IntelligenceEngine.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigableStructures.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\NavigationMesh.h" />
     <ClInclude Include="ManifestSimulation\IntelligenceEngine\Pathing.h" />
+    <ClInclude Include="ManifestSimulation\IntelligenceEngine\WorldState.h" />
     <ClInclude Include="ManifestUtility\Assert.h" />
     <ClInclude Include="ManifestUtility\Console_Color.h" />
     <ClInclude Include="ManifestUtility\DebugLogger.h" />

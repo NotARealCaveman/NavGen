@@ -18,8 +18,11 @@ void DronePathFinderSystem::AddRuntime(FlatMap<std::vector<ActionDetails>>& dron
 	archetypeUpdaters.insert(std::make_pair(WANDERER, PathingUpdater));
 	archetypeUpdaters.insert(std::make_pair(PATROL, PathingUpdater));
 	//Register runtime
-	RegisterRuntimeCapabilities(MOBILITY | FLIGHT | TELEPORTATION);
-	RegisterRuntimeAttributes(WANDERER | PATROL);
+	RegisterRuntimeCapabilities(MOBILITY );
+	RegisterRuntimeCapabilities(FLIGHT );
+	RegisterRuntimeCapabilities(TELEPORTATION);
+	RegisterRuntimeAttributes(PATROL);
+	RegisterRuntimeAttributes(WANDERER );	
 }
 
 WorldState DronePathFinderSystem::GetTargetLocation(const BlackBoard& blackBoard, const MFu64 objectiveID, const MFu64 assignedID)
